@@ -33,7 +33,6 @@ function App() {
           return <div key={user.id} style={{border: 'solid maroon 1px', margin: '10px 0', width: '250px', padding: '15px', borderRadius: '10px'}}>
             <h4>Name : {user.name}</h4>
             <h4>Email: {user.email}</h4>
-            <h4>City: {user.address.city}</h4>
             </div>
         })
       }
